@@ -4,7 +4,7 @@
    background-color: rgb(236 238 233);
 }
 .header {
-    margin-bottom: clamp( 1px, 40px ,1000px);
+    margin-bottom: clamp( 1px, 30px ,1000px);
 }
 .version {
     display: flex;
@@ -13,8 +13,6 @@
     margin-top: 20px;
     margin-right: 40px;
     align-items: flex-end;
-    margin-top: 40px;
-    margin-right: 40px;
     color: #79817e;
 }
 
@@ -61,6 +59,9 @@ hr {
     margin-left: 64px;
     margin-right: 10px;
 }
+.input-block {
+    margin-right: 70px;
+}
 .input-block input {
     background-color:#eceee9;
     font-size: 15px;
@@ -68,7 +69,35 @@ hr {
 .input-block input::placeholder {
 font-size: 20px;
 }
-
+.hr-2 {
+    width: 65%;
+}
+.enter-block {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    border: 1.5px solid green;
+    padding: 15px;
+    margin-left: 25px;
+    color: green;
+    font-size: 20px;
+}
+.info-block {
+    display: block;
+    margin: 10px auto;
+    width: 73%;
+}
+span {
+    color: rgb(54, 10, 247);
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
 .footer {
 }
 .modal__window {
