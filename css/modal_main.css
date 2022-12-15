@@ -13,7 +13,7 @@ body {
 .main__header {
    display: flex;
    justify-content: space-between;
-   height: 50px;
+   height: 60px;
    align-items: center;
    background-color: #66ae3e;
    font-size: 20px;
