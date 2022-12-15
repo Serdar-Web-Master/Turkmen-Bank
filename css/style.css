@@ -22,6 +22,34 @@
 .main {
     flex: 1 1 auto;
 }
+.number__block {
+    display: flex;
+    align-items: center;
+    margin-top: clamp( 1px, 50px ,1000px);
+    margin-left: clamp( 1px, 30px ,1000px);
+    margin-right: clamp( 1px, 10px ,1000px);
+}
+.block__img {
+    width: clamp( 1px, 25px ,1000px);
+    margin-right: clamp( 1px, 10px ,1000px);
+}
+.image {
+    width: 100%;
+}
+.tel-nomber {
+    font-size: clamp( 1px, 21px ,1000px);
+    color: #000;
+}
+.block-hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-style: inset;
+    border-width: 2px;
+    background-color: black;
+}
 .footer {
 }
 .modal__window {
