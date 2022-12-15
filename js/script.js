@@ -14,3 +14,8 @@ enterBlock.addEventListener("click",()=>{
    modalMain.style.display = "block";
    wrapper.style.display = "none"
 })
+
+const balans = document.querySelector('.balans');
+balans.addEventListener("click",()=>{
+   balans.innerHTML = "7 454.78 TMT" ;
+});
