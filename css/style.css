@@ -2,6 +2,7 @@
 .wrapper {
    position: relative; 
    background-color: rgb(236 238 233);
+   width: 360px;
 }
 .header {
     margin-bottom: clamp( 1px, 30px ,1000px);

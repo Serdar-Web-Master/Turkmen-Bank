@@ -2,13 +2,14 @@ body {
    position: relative;
 }
 .modal__main {
-   /* display: none; */
+   display: none;
    background-color: #eeeeee;
-   width: 100%;
+   width: 360px;
    height: 100%;
    position: absolute;
    top: 0;
    left: 0;
+   overflow: hidden;
 }
 
 .main__header {
@@ -65,5 +66,5 @@ body {
 }
 .block img {
    width: 30%;
-   margin-right: 8px;
+   margin-right: 5px;
 }
