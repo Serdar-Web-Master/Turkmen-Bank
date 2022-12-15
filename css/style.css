@@ -1,9 +1,22 @@
 
 .wrapper {
    position: relative; 
+   background-color: rgb(220, 221, 221);
 }
 .header {
 }
+.version {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: clamp( 1px, 15px ,1000px);
+    margin-top: 40px;
+    margin-right: 40px;
+    align-items: flex-end;
+    margin-top: 40px;
+    margin-right: 40px;
+    color: #79817e;
+}
+
 .container {
 }
 .main {
