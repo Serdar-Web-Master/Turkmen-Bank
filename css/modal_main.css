@@ -1,4 +1,6 @@
-
+body {
+   position: relative;
+}
 .modal__main {
    display: none;
    width: 100%;
