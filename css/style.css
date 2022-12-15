@@ -33,7 +33,7 @@
     margin-right: clamp( 1px, 10px ,1000px);
 }
 .block__img2 {
-    width: 27px;
+    width: 28px;
 }
 .image {
     width: 100%;
@@ -63,7 +63,8 @@ hr {
     margin-right: 10px;
 }
 .input-block {
-    margin-right: 70px;
+    margin-right: 60px;
+    margin-left: 10px;
 }
 .input-block input {
     background-color:#eceee9;
@@ -102,6 +103,10 @@ h3 {
     font-weight: 600;
 }
 .footer {
+    height: 20%;
+}
+.footer-img {
+    width: 100%;
 }
 .modal__window {
     display: block;
