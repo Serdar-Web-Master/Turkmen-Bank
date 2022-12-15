@@ -32,6 +32,9 @@
     width: clamp( 1px, 25px ,1000px);
     margin-right: clamp( 1px, 10px ,1000px);
 }
+.block__img2 {
+    width: 27px;
+}
 .image {
     width: 100%;
 }
