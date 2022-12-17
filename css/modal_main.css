@@ -69,12 +69,12 @@ body {
 }
 
 .mymodal {
-   width: 250px;
-   height: 100px;
+   width: 300px;
+   height: 130px;
    position: absolute;
    background-color: rgb(124, 183, 120);
    top: 35%;
-   left: 16%;
+   left: 8%;
    font-size: 20px;
    transform: translateY(-350px);
    transition: all 2s;
@@ -85,11 +85,16 @@ body {
 .mymodal input {
    display: block;
    margin: 15px auto;
-   font-size: 20px;
+   font-size: 24px;
 }
 .btn {
-   margin: 0 auto;
+   margin: 25px auto;
     display: block;
-    padding: 7px 20px 7px 20px; 
+    padding: 10px 50px 10px 50px;
     font-size: 20px;
+    background-color: #300bae;
+    color: white;
+}
+.btn:hover {
+   background-color: red;
 }
