@@ -99,3 +99,20 @@ body {
 .btn:hover {
    background-color: red;
 }
+
+.block__img-footer {
+   width: 100vw;
+   margin-top: -10px;
+}
+.block__img-footer img {
+   width: 100%;
+}
+.spisok {
+   width: 100%;
+   height: 35px;
+   background-color: #fcf9f9;
+   text-align: center;
+   font-size: 18px;
+   padding: 10px;
+   margin-bottom: 12px;
+}
