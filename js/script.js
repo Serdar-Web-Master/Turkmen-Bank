@@ -18,6 +18,8 @@ const moveBtn = document.querySelector('.header__menu');
 
 const balans = document.querySelector('.balans');
 
+const modalOpen = document.querySelector('#modalOpen');
+
 enterBlock.addEventListener("click",()=>{
    modalMain.style.display = "block";
    wrapper.style.display = "none"
@@ -27,9 +29,13 @@ enterBlock.addEventListener("click",()=>{
 let balansValue = 7556.87
 let toggle = 0;
 
-moveBtn.addEventListener("click",()=>{
+modalOpen.addEventListener("click",()=>{
    mymodal.classList.add("move")
 })
+
+// moveBtn.addEventListener("click",()=>{
+//    mymodal.classList.add("move")
+// })
 btn.addEventListener("click",()=>{
    mymodal.classList.remove("move")
 })
